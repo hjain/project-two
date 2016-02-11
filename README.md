@@ -3,6 +3,7 @@
 Add jetty plugin to pom.xml
 
 Step 1: Add the following to pom.xml
+```
     <plugins>
       <plugin>
         <groupId>org.eclipse.jetty</groupId>
@@ -19,7 +20,10 @@ Step 1: Add the following to pom.xml
           </configuration>
       </plugin>
     </plugins>
+```
 
 Step 2: mvn package
+
 Step 3: mvn jetty:run
+
 Step 4: http://localhost:8888/abc/
